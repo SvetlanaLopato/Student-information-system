@@ -1,0 +1,28 @@
+{
+  "name": "student-information-system",
+  "version": "1.0.0",
+  "description": "university project",
+  "scripts": {
+    "start": "node server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvetlanaLopato/Student-information-system.git"
+  },
+  "author": "Svetlana Lopato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SvetlanaLopato/Student-information-system/issues"
+  },
+  "homepage": "https://github.com/SvetlanaLopato/Student-information-system#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.15.2",
+    "express-bearer-token": "^2.1.1",
+    "express-session": "^1.15.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^4.9.8",
+    "nodemon": "^1.11.0"
+  }
+}
